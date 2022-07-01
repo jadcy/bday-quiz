@@ -6,12 +6,17 @@ h1 {
 body {
     background-color: #B3D2B2;
 }
-.center {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #FFFD98;
-    padding: 10px;
+
+@media screen and (max-width: 768px) { 
+    .center {
+        /* margin:0; */
+        border: .25em solid #FFFD98;
+        padding: 1em;
+        margin: 2em;
+        
+    }
 }
+
 
 
 .center label, input {
