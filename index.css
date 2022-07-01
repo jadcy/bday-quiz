@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+body {
+    background-color: #B3D2B2;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #FFFD98;
+    padding: 10px;
+}
+
+
+.center label, input {
+    display: inline;
+}
