@@ -16,7 +16,7 @@ document.getElementById("quiz").onsubmit = function(){
         title = "tell my sister we have another sibling.. :0"
     } else if (checks >30 && checks < 49) {
         title = "omg u are jady chan... hello :0"
-    } else if (checks > 50) {
+    } else if (checks >= 50) {
         title = "u can have my passport"
     }
 
